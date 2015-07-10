@@ -423,3 +423,22 @@ Small Device Styles
   }
 
 }
+
+
+.nav_bg li {
+float: center;
+display: inline;
+height: 40px;
+color:  #FF00FF;
+font-size: 25px;
+font-weight: 100%;
+padding: 0 20px;
+margin: 0 5px;
+text-align: center;
+position: relative;
+}
+.nav_bg li:hover, .nav_bg li.on {
+cursor: pointer;
+color: #FF00FF;
+font-size: 30px;
+}
