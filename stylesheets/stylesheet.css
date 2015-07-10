@@ -103,7 +103,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  #color: #007edf;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -426,10 +426,9 @@ Small Device Styles
 
 
 .nav_bg li {
-float: center;
 display: inline;
 height: 40px;
-color:  #FF00FF;
+color:  #191970;
 font-size: 25px;
 font-weight: 100%;
 padding: 0 20px;
@@ -439,6 +438,6 @@ position: relative;
 }
 .nav_bg li:hover, .nav_bg li.on {
 cursor: pointer;
-color: #FF00FF;
-font-size: 30px;
+color: #FFFFFF;
+
 }
